@@ -81,21 +81,3 @@ def get_all_orders(connection):
 if __name__ == '__main__':
     connection = get_sql_connection()
     print(get_all_orders(connection))
-    # print(get_order_details(connection,4))
-    # print(insert_order(connection, {
-    #     'customer_name': 'dhaval',
-    #     'total': '500',
-    #     'datetime': datetime.now(),
-    #     'order_details': [
-    #         {
-    #             'product_id': 1,
-    #             'quantity': 2,
-    #             'total_price': 50
-    #         },
-    #         {
-    #             'product_id': 3,
-    #             'quantity': 1,
-    #             'total_price': 30
-    #         }
-    #     ]
-    # }))
